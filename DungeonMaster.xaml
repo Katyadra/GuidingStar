@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
     <Grid>
-        
+        <Rectangle HorizontalAlignment="Left" Height="434" Stroke="Black" VerticalAlignment="Center" Width="139" Fill="#FFE65454"/>
+        <Button Content="Профиль" HorizontalAlignment="Left" Height="44" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="519,20,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="519,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="519,189,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="32" Margin="519,143,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="519,279,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="33" Margin="519,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF84E6DB"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="507,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"><Run Language="ru-ru" Text="История"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="524,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D4"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="524,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D8"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="524,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D12"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="524,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24"><Run Text="D"/><Run Language="ru-ru" Text="1"/><Run Text="0"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="522,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Text="D100"/>
+        <Rectangle HorizontalAlignment="Left" Height="32" Margin="519,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="524,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D20"/>
+        <Button Content="История кубов?" HorizontalAlignment="Left" Height="31" Margin="10,214,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="История мира" HorizontalAlignment="Left" Height="31" Margin="10,250,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="Правила" HorizontalAlignment="Left" Height="31" Margin="10,287,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="НПС" HorizontalAlignment="Left" Height="31" Margin="10,174,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+        <Button Content="Ассеты" HorizontalAlignment="Left" Height="31" Margin="10,136,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+        <Button Content="Игроки" HorizontalAlignment="Left" Height="31" Margin="10,94,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="158" Margin="171,242,0,0" TextWrapping="Wrap" Text="Действующие персонажи (НПС, Игроки и мобы) Их хп" VerticalAlignment="Top" Width="319"/>
+        <TextBox HorizontalAlignment="Left" Height="345" Margin="580,55,0,0" TextWrapping="Wrap" Text="Заметки" VerticalAlignment="Top" Width="210"/>
+        <Rectangle HorizontalAlignment="Left" Height="203" Margin="171,20,0,0" Stroke="Black" VerticalAlignment="Top" Width="319" Fill="#FF617DA4"/>
+        <TextBox HorizontalAlignment="Left" Height="120" Margin="204,32,0,0" TextWrapping="Wrap" Text="Карта/ассеты Мб интерактивное меню, чтобы двигать картинки по нему. Также возможность расширения изображения на весь экран" VerticalAlignment="Top" Width="242" TextChanged="TextBox_TextChanged" Background="{x:Null}"/>
+
     </Grid>
 </Window>

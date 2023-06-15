@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GuidingStar"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Player" Height="450" Width="800">
     <Grid>
-        
+        <Rectangle HorizontalAlignment="Left" Height="434" Stroke="Black" VerticalAlignment="Center" Width="139" Fill="#FFE65454"/>
+        <Button Content="Профиль" HorizontalAlignment="Left" Height="44" Margin="10,10,0,0" VerticalAlignment="Top" Width="119"/>
+        <ComboBox HorizontalAlignment="Left" Height="29" Margin="10,83,0,0" VerticalAlignment="Top" Width="119"/>
+        <ComboBox HorizontalAlignment="Left" Height="29" Margin="10,395,0,0" VerticalAlignment="Top" Width="119"/>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="10,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"><Run Language="ru-ru" Text="Игрок"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="10,365,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"><Run Language="ru-ru" Text="Дм"/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="115" Margin="157,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="150" Fill="#FFFFA3A3"/>
+        <TextBlock HorizontalAlignment="Left" Height="47" Margin="194,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"><Run Language="ru-ru" Text="Тут картинка"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="302" Margin="593,83,0,0" TextWrapping="Wrap" Text="Заметки" VerticalAlignment="Top" Width="197"/>
+        <Rectangle HorizontalAlignment="Left" Height="243" Margin="157,159,0,0" Stroke="Black" VerticalAlignment="Top" Width="150" Fill="#FF8B6FCA"/>
+        <Rectangle HorizontalAlignment="Left" Height="243" Margin="353,159,0,0" Stroke="Black" VerticalAlignment="Top" Width="150" Fill="#FF8B6FCA"/>
+        <Rectangle HorizontalAlignment="Left" Height="115" Margin="353,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="150" Fill="#FFFFA3A3"/>
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="374,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"><Run Text="Основная инфа (Хп, КД, Класс"/><Run Language="ru-ru" Text=", уровень"/><Run Text=")"/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="534,20,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="534,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="534,189,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="32" Margin="534,143,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="534,279,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <Rectangle HorizontalAlignment="Left" Height="33" Margin="534,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF84E6DB"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="522,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"><Run Language="ru-ru" Text="История"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="539,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D4"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="539,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D8"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="539,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D12"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="539,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24"><Run Text="D"/><Run Language="ru-ru" Text="1"/><Run Text="0"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="537,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" Text="D100"/>
+        <Rectangle HorizontalAlignment="Left" Height="32" Margin="534,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="34" Fill="#FF87C790"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="539,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="D20"/>
+        <TextBlock HorizontalAlignment="Left" Height="98" Margin="176,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94"><Run Language="ru-ru" Text="Статы"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="98" Margin="381,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94"><Run Language="ru-ru" Text="Статы"/></TextBlock>
+        <Button Content="Атаки" HorizontalAlignment="Left" Height="31" Margin="10,136,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="Инвентарь" HorizontalAlignment="Left" Height="31" Margin="10,177,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="История кубов?" HorizontalAlignment="Left" Height="31" Margin="10,217,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="Биография" HorizontalAlignment="Left" Height="31" Margin="10,258,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="Правила" HorizontalAlignment="Left" Height="31" Margin="10,301,0,0" VerticalAlignment="Top" Width="119"/>
+
     </Grid>
 </Window>

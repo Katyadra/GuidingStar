@@ -10,19 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace GuidingStar
 {
     /// <summary>
-    /// Логика взаимодействия для Window2.xaml
+    /// Логика взаимодействия для Page2.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class Page2 : Page
     {
-        public Window2()
+        public Page2()
         {
             InitializeComponent();
         }
-     
     }
 }

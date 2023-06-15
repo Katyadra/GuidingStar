@@ -25,9 +25,7 @@ namespace GuidingStar
             InitializeComponent();
         }
 
-        private void Button_Click()
-        {
+      
 
-        }
     }
 }
