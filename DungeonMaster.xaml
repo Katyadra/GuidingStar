@@ -26,13 +26,13 @@
         <Button Content="История кубов?" HorizontalAlignment="Left" Height="31" Margin="10,214,0,0" VerticalAlignment="Top" Width="119"/>
         <Button Content="История мира" HorizontalAlignment="Left" Height="31" Margin="10,250,0,0" VerticalAlignment="Top" Width="119"/>
         <Button Content="Правила" HorizontalAlignment="Left" Height="31" Margin="10,287,0,0" VerticalAlignment="Top" Width="119"/>
-        <Button Content="НПС" HorizontalAlignment="Left" Height="31" Margin="10,174,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
-        <Button Content="Ассеты" HorizontalAlignment="Left" Height="31" Margin="10,136,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
-        <Button Content="Игроки" HorizontalAlignment="Left" Height="31" Margin="10,94,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click"/>
+        <Button Content="НПС" HorizontalAlignment="Left" Height="31" Margin="10,174,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="Ассеты" HorizontalAlignment="Left" Height="31" Margin="10,136,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Content="Игроки" HorizontalAlignment="Left" Height="31" Margin="10,94,0,0" VerticalAlignment="Top" Width="119"/>
         <TextBox HorizontalAlignment="Left" Height="158" Margin="171,242,0,0" TextWrapping="Wrap" Text="Действующие персонажи (НПС, Игроки и мобы) Их хп" VerticalAlignment="Top" Width="319"/>
         <TextBox HorizontalAlignment="Left" Height="345" Margin="580,55,0,0" TextWrapping="Wrap" Text="Заметки" VerticalAlignment="Top" Width="210"/>
         <Rectangle HorizontalAlignment="Left" Height="203" Margin="171,20,0,0" Stroke="Black" VerticalAlignment="Top" Width="319" Fill="#FF617DA4"/>
-        <TextBox HorizontalAlignment="Left" Height="120" Margin="204,32,0,0" TextWrapping="Wrap" Text="Карта/ассеты Мб интерактивное меню, чтобы двигать картинки по нему. Также возможность расширения изображения на весь экран" VerticalAlignment="Top" Width="242" TextChanged="TextBox_TextChanged" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="120" Margin="204,32,0,0" TextWrapping="Wrap" Text="Карта/ассеты Мб интерактивное меню, чтобы двигать картинки по нему. Также возможность расширения изображения на весь экран" VerticalAlignment="Top" Width="242" Background="{x:Null}"/>
 
     </Grid>
 </Window>

@@ -23,6 +23,6 @@ namespace GuidingStar
         {
             InitializeComponent();
         }
-     
+
     }
 }
